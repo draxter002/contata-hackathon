@@ -1,0 +1,32 @@
+# --- Dependency & Virtual Environment Directories ---
+node_modules/
+.next/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# --- Secrets & Environment Files ---
+# Never commit real credentials. Use .env.example as the template.
+.env
+.env.local
+.env.*.local
+
+# --- Database Files ---
+# SQLite is for local dev only; never commit the DB file.
+*.db
+*.sqlite3
+*.sqlite
+
+# --- Build Artifacts ---
+dist/
+build/
+
+# --- OS & Tool Noise ---
+.DS_Store
+Thumbs.db
+*.log
+
+# --- Editor State ---
+.vscode/settings.json
+.idea/
